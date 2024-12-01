@@ -1,0 +1,17 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "title": "How to implement server-side Pagination using React Table",
+        "content": "Lorem ipsum dolor sit amet.",
+        "category": "React"
+      }
+    ],
+    "pagination": {
+      "total_records": 3,
+      "current_page": 1,
+      "total_pages": 3,
+      "next_page": 2,
+      "prev_page": null
+    }
+  }

@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2890696.css",
+    "main.js": "/static/js/main.7bec913b.js",
+    "static/js/787.aeaa6d49.chunk.js": "/static/js/787.aeaa6d49.chunk.js",
+    "static/media/UserTwo.svg": "/static/media/UserTwo.b009b9b74bb36519998ac87d5a61100b.svg",
+    "static/media/Chicken.jpg": "/static/media/Chicken.4200cb37ecd28c412802.jpg",
+    "static/media/alfont_com_Madani-Arabic-Semi-Bold.ttf": "/static/media/alfont_com_Madani-Arabic-Semi-Bold.2fa121d1ab7b3156c65f.ttf",
+    "static/media/alfont_com_Madani-Arabic-Medium.ttf": "/static/media/alfont_com_Madani-Arabic-Medium.6f3cfceb8644d1131c4e.ttf",
+    "static/media/alfont_com_Madani-Arabic-Regular.ttf": "/static/media/alfont_com_Madani-Arabic-Regular.c161142bca18b7d2b49e.ttf",
+    "static/media/alfont_com_Madani-Arabic-Light.ttf": "/static/media/alfont_com_Madani-Arabic-Light.091e0bdebdf7445c5a62.ttf",
+    "static/media/alfont_com_Madani-Arabic-Extra-Light.ttf": "/static/media/alfont_com_Madani-Arabic-Extra-Light.6d28cd860b9a2951baab.ttf",
+    "static/media/din-next-lt-w23-regular.ttf": "/static/media/din-next-lt-w23-regular.d215eb8db524d88ae951.ttf",
+    "static/media/40px.svg": "/static/media/40px.418d529ea14197a77bc51777e0e0f37f.svg",
+    "static/media/Mapsicle Map.png": "/static/media/Mapsicle Map.d469ce3bb72e274ab50c.png",
+    "static/media/loading 2 1 1.png": "/static/media/loading 2 1 1.d870ae088d4c516f7b83.png",
+    "static/media/Vector (Stroke).png": "/static/media/Vector (Stroke).9770c80041938e541d22.png",
+    "static/media/trainer.png": "/static/media/trainer.471b10b5a11d61b203b9.png",
+    "static/media/Notes.svg": "/static/media/Notes.62c85d163c74fb77867c87be0e4bd91e.svg",
+    "static/media/excel2-svgrepo-com.svg": "/static/media/excel2-svgrepo-com.d71411a23ba2d1ff503292773664cbc9.svg",
+    "static/media/document-text.svg": "/static/media/document-text.65cf0bfaa61177fa200ce85201f8f361.svg",
+    "static/media/Group.svg": "/static/media/Group.4481fe772a5980d1d5e4.svg",
+    "static/media/eye.svg": "/static/media/eye.95af804d847f464ab7bf0a72096add20.svg",
+    "index.html": "/index.html",
+    "static/media/closeicon.svg": "/static/media/closeicon.123e26606a26f70d4d8b02b580c9dc12.svg",
+    "static/media/Ellipse 9.svg": "/static/media/Ellipse 9.e478570d9eb5a152ae5a2fc0e9fc4725.svg",
+    "main.a2890696.css.map": "/static/css/main.a2890696.css.map",
+    "main.7bec913b.js.map": "/static/js/main.7bec913b.js.map",
+    "787.aeaa6d49.chunk.js.map": "/static/js/787.aeaa6d49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2890696.css",
+    "static/js/main.7bec913b.js"
+  ]
+}

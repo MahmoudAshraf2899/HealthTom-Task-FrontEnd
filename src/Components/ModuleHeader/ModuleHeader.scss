@@ -1,0 +1,103 @@
+.ModuleHeader{
+    background-color: #FFF;
+     .main-element-active{
+        border-radius: 8px;
+        background: #F1FAEE;
+        display: inline-flex;
+        height: 40px;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        color: #70D44B;
+        text-align: right;
+        font-family: MadaniArabic-SemiBold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;  
+        cursor: pointer;
+     }
+     .main-element{
+        display: inline-flex;
+        height: 40px;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        color: var(--Greyscale-500, #64748B);
+        text-align: right; 
+        font-family: MadaniArabic-Medium;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;  
+        letter-spacing: 0.2px;
+        cursor: pointer;
+
+     }
+     .filter-section{
+        display: flex;
+        width: 99px;
+        height: 40px;
+        padding: 8px 12px 8px 17px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        color: var(--Greyscale-500, #64748B);
+        text-align: right;
+        font-family: MadaniArabic-Medium;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;  
+        letter-spacing: 0.2px;
+        cursor: pointer;
+     }
+     .add-mission-btn{
+        border-radius: 8px;
+        background: #124734;
+        display: flex;
+        width: 134px;
+        height: 40px;
+        padding: 8px 12px 8px 17px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: right; 
+        font-family: MadaniArabic-Medium;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;  
+        letter-spacing: 0.2px;
+        cursor: pointer;
+     }
+     /* Users */
+     .add-user-btn{
+      border-radius: 8px;
+      background: #124734;
+      display: flex;
+      width: 158px;
+      height: 40px;
+      padding: 8px 19px 8px 31px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+      color: #FFF;
+      text-align: right;
+      font-family: MadaniArabic-Medium;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      letter-spacing: 0.2px;
+      cursor: pointer;
+     }
+}

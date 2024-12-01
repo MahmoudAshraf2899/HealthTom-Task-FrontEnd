@@ -1,0 +1,582 @@
+.MainPage{
+    .mission-summary{ 
+        height: 293px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color:#FFF;
+        z-index: 99px;
+    }
+    .title{
+        color: var(--Greyscale-900, #0F172A);
+        text-align: right; 
+        font-family: MadaniArabic-Medium;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;  
+        letter-spacing: 0.2px;
+    }
+    .alarm{
+        width: 39.177px;
+        height: 39.177px;
+        flex-shrink: 0;
+    }
+    .new-type{ 
+       
+        height: 125.368px;
+        flex-shrink: 0;        
+        border-radius: 9.794px;
+        background: #124734;
+    }
+    
+    .img-container{
+        position: relative;
+        width: 100%;
+        max-width: 600px; /* Set the maximum width of the container as needed */
+    } 
+    .image-overlay {
+        position: absolute;
+        top: 6px;
+        left: -7px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5; /* Adjust the opacity as needed */
+    }
+    .status-txt{
+        color: var(--Additional-white, #FFF);
+        text-align: center;
+        font-family: MadaniArabic-Regular;
+        font-size: 11.753px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 18.805px */
+    }
+    .status-count{
+        color: var(--Additional-white, #FFF);
+        text-align: center;
+        font-family: MadaniArabic-Medium;
+        font-size: 15.671px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; 
+        letter-spacing: 0.196px;
+    }
+    .inProgress{
+        
+        height: 125.368px;
+        flex-shrink: 0;
+        flex-shrink: 0; 
+        border-radius: 9.794px;
+        background: #E1FAD8; 
+     
+    }
+    .img-container-progress{
+        position: relative;
+        width: 100%;
+        max-width: 600px; /* Set the maximum width of the container as needed */
+    }
+    .image-overlay-progress {
+        position: absolute;
+         
+        
+        opacity: 0.5; /* Adjust the opacity as needed */
+    } 
+    .status-txt-progress{
+        color: #124734;
+        text-align: center;
+        font-family: MadaniArabic-Regular;
+        font-size: 11.753px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 18.805px */
+    } 
+    .status-count-progress{
+        color: #124734;
+        text-align: center;
+        font-family: MadaniArabic-Medium;
+        font-size: 15.671px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 23.506px */
+        letter-spacing: 0.196px;
+    }
+    .evaluation{
+        
+        height: 125.368px;
+        flex-shrink: 0;
+        border-radius: 9.794px;
+        background: #F3EFA1;
+    }
+    .img-container-evaluation{
+        position: relative;
+        width: 100%;
+        max-width: 600px; /* Set the maximum width of the container as needed */
+    }
+    .image-overlay-evaluation {
+        position: absolute;
+        top: 12px;
+        left: -12px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5; /* Adjust the opacity as needed */
+    } 
+    .status-txt-evaluation{
+        color: #124734;
+        text-align: center;
+        font-family: MadaniArabic-Regular;
+        font-size: 11.753px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; 
+    } 
+    .status-count-evaluation{
+        color: #124734;
+        text-align: center;
+        font-family: MadaniArabic-Medium;
+        font-size: 15.671px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; 
+        letter-spacing: 0.196px;
+    }
+    .completed{
+       
+        height: 125.368px;
+        flex-shrink: 0;
+        border-radius: 9.794px;
+        background: #70D44B;
+    }
+    .img-container-completed{
+        position: relative;
+         
+        // max-width: 600px; /* Set the maximum width of the container as needed */
+    }
+    .image-overlay-completed {
+        position: absolute;
+        // top: 12px;
+        // left: -12.5px;
+        // width: 100%;
+        // height: 100%;
+        opacity: 0.5; /* Adjust the opacity as needed */
+    } 
+    .status-txt-completed{
+        color: var(--Additional-white, #FFF);
+        text-align: center;
+        font-family: MadaniArabic-Regular;
+        font-size: 11.753px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 18.805px */
+    } 
+    .status-count-completed{
+        color: var(--Additional-white, #FFF);
+        text-align: center;
+        font-family: MadaniArabic-Medium;
+        font-size: 15.671px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 23.506px */
+        letter-spacing: 0.196px;
+    }
+    .balance{
+        color: var(--Greyscale-500, #64748B);
+        text-align: right;  
+        font-family: MadaniArabic-Regular;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;  
+    }
+    .percentage{
+        color: var(--Greyscale-900, #0F172A);
+        text-align: right; 
+        font-family: MadaniArabic-SemiBold;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;  
+        letter-spacing: 0.2px;
+    }
+    .increase{
+        color: #70D44B;
+        text-align: right;
+
+        /* body/small/medium */
+        font-family: MadaniArabic-Medium;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 19.2px */
+        text-align: end;
+    }
+    .month-slider {
+        border-top: 1px solid #F5F5F5;
+        border-bottom: 1px solid #F5F5F5;
+        display: flex;
+        overflow-x: auto;
+         
+      }
+      
+      .day {
+        width: 60px;
+        height: 50px;
+        padding: 20px 0px 13px 0px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+        background-color: #fff;
+        cursor: pointer;
+        color: var(--Black-01, #2C3659);
+        text-align: center; 
+        font-family: MadaniArabic-Medium;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 20.8px */
+      }
+      
+      .active {
+        background-color: #70D44B; /* Set your desired active day background color */
+        color: #fff; /* Set your desired active day text color */
+      }
+      .slider-container {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0 10px; /* Adjust as needed */
+        scroll-behavior: smooth;
+        gap: 4rem;
+      }
+      .monthYearLabel{
+        display: flex;
+        gap: 4rem;
+        color: var(--Black-01, #2C3659);
+        text-align: right;
+
+        /* Headings/H2 - 22 Bold - Lh 130% */
+        font-family: MadaniArabic-SemiBold;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 28.6px */
+      }
+      .dropdown-menu-bottom-center-customize{
+        --tw-translate-x: -50%;
+        left: 50%;
+        /* right: 100%; */
+        visibility: hidden;
+      }
+      .report-type-active{
+        display: flex;
+        width: 98px;
+        height: 40px;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #F1FAEE;
+        color: #70D44B;
+        text-align: right; 
+        font-family: MadaniArabic-SemiBold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+        cursor: pointer;
+
+      }
+      .report-type{
+        display: flex;
+        width: 98px;
+        height: 40px;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #F7F8F8;
+        color: var(--Greyscale-500, #64748B);
+        text-align: right;
+
+        /* body/medium/medium */
+        font-family: MadaniArabic-Medium;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+        letter-spacing: 0.2px;
+        cursor: pointer;
+      }
+      .currentMissions{
+        color: var(--Black-01, #2C3659);
+        text-align: right;
+        font-family: MadaniArabic-SemiBold;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 23.4px */
+      }
+      .showAll{
+        color: #70D44B;
+        font-family: MadaniArabic-Medium;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+        cursor: pointer;
+      }
+      .mission-content{        
+        height: 145px;
+        padding: 10px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background-color: white;
+
+    }
+    .mission-type{
+        color: var(--Grey-01, #A7AEC1);
+        text-align: right;
+
+       
+        font-family: MadaniArabic-Regular;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;  
+    }
+    .mission-address{
+        color: var(--Black-01, #2C3659);
+        text-align: right;                  
+        font-family: MadaniArabic-SemiBold;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; 
+    }
+    .mission-reward{
+        display: flex;
+        padding: 6px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border-radius: 8px;
+        background: rgba(112, 212, 75, 0.11);
+        color: #70D44B;
+        text-align: right;
+        font-family: MadaniArabic-Medium;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+    }
+    .created-at{
+        display: flex;
+        padding: 6px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        color: var(--Grey-01, #A7AEC1);
+        text-align: right; 
+        font-family: MadaniArabic-Medium;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;  
+    }
+    .mission-status{
+        align-items: center;
+    }
+    .arrow:focus{
+        outline: none;
+    }
+    .inprogress{
+        display: flex;
+        width: 81px;
+        height: 28.459px;
+        padding: 8.757px 13.135px;
+        justify-content: center;
+        align-items: center;
+        gap: 10.946px;
+        flex-shrink: 0;
+        border-radius: 54.73px;
+        background: var(--Secondary-Amber-50, #FFFBEB);
+        color: var(--Secondary-Amber-500-base, #F6A723);
+        text-align: center;
+        font-family: MadaniArabic-Regular;
+        font-size: 10.946px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 17.514px */
+    }
+    .not-assigned-yet{
+        display: flex;
+        width: 93px;
+        padding: 6px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border-radius: 8px;
+        background: var(--Lgrey-02, #F9F9F9);
+        color: var(--Grey-01, #A7AEC1);
+        text-align: right;      
+        font-family: MadaniArabic-Medium;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+    }
+    .three-dots-li{
+        display: flex;
+        justify-content: start;
+        color: #64748B;
+        text-align: right;
+        font-family: MadaniArabic-Regular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 18px */
+        margin-bottom: 15px;
+    }
+    .three-dots-li-delete{
+        display: flex;
+        justify-content: start;
+        color: #EB4335;
+        text-align: right;
+        font-family: MadaniArabic-Regular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;  
+        margin-bottom: 15px;
+    }
+    .mission-history{
+        display: flex;
+        width: 50%;
+        height: 28.459px;
+        padding: 8.757px 13.135px;
+        justify-content: center;
+        align-items: center;
+        gap: 10.946px;
+        flex-shrink: 0;
+        border-radius: 54.73px;
+        background: #b02818;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: var(--secondary-amber-500-base, #eeeeee);
+        text-align: center;
+        font-family: MadaniArabic-Regular;
+        font-size: 10.946px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+    .mission-details{
+        display: flex;
+        height: 40px;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        background: #F9F9F9;
+        color: var(--Greyscale-500, #64748B);
+        text-align: right;
+        font-family: MadaniArabic-Regular;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 19.2px */
+    }
+    .close-icon{
+        // display: flex;
+        // align-self: center;
+    }
+    .mission-range{
+        color: var(--Greyscale-900, #0F172A);
+        text-align: right;
+
+        
+        font-family: MadaniArabic-SemiBold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;  
+        letter-spacing: 0.2px;
+    }
+    .range{
+        display: inline-flex;
+        padding: 13px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border-radius: 8px;
+        background: var(--Lgrey-02, #F9F9F9);
+        color: var(--Grey-01, #A7AEC1);
+        text-align: right;
+        
+        /* Label/L6 Plus - 12 Semi Bold - Lh 130% */
+        font-family: MadaniArabic-Medium;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+        overflow-y: hidden;
+    }
+    .mission-assign-txt{
+        color: var(--Greyscale-900, #0F172A);
+        text-align: right;
+
+        /* body/medium/semibold */
+        font-family: MadaniArabic-SemiBold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+        letter-spacing: 0.2px;
+    }
+    .assigned-at{
+        color: #A7AEC1;
+        text-align: right;
+        font-family: MadaniArabic-Regular;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.6px */
+    }
+    .user-name{
+        color: var(--daBlack-03---Line, #292E32);
+       text-align: right;
+       font-family: MadaniArabic-Medium;
+       font-size: 14px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 130%; /* 18.2px */
+    }
+    .discription{
+        color: var(--Greyscale-900, #0F172A);
+        text-align: right;
+
+        /* body/medium/semibold */
+        font-family: MadaniArabic-SemiBold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+        letter-spacing: 0.2px;
+    }
+    .description-content{
+        color: var(--Greyscale-500, #64748B);
+        text-align: right;
+
+        /* body/small/regular */
+        font-family: MadaniArabic-Regular;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 19.2px */
+    }
+}   

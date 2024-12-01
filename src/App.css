@@ -1,0 +1,31 @@
+:root {
+  --background-color: #FFFFFF; /* Default background color */
+  --text-color: #FFFFFF; /* Default text color */
+}
+
+@media (prefers-color-scheme: white) {
+  :root {
+      --background-color: #FFFFFF; /* Dark mode background color */
+      --text-color: #FFFFFF; /* Dark mode text color */
+  }
+}
+
+body {
+  
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* Width of the entire scrollbar */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #70D44B; /* Color of the scrollbar handle */
+  border-radius: 25px; /* Roundness of the scrollbar handle */
+}
+::-webkit-scrollbar-track {
+  background-color: #ccc; /* Replace with your desired background color */
+}
+.err-msg{
+    color: red;
+    font-family: MadaniArabic-Regular;
+    font-size: 12px;
+}

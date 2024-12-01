@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'MadaniArabic-SemiBold';  
+    src: url('./Assets/Fonts/alfont_com_Madani-Arabic-Semi-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'MadaniArabic-Regular';
+    src: url('./Assets/Fonts/alfont_com_Madani-Arabic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'MadaniArabic-Medium';
+    src: url('./Assets/Fonts/alfont_com_Madani-Arabic-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'MadaniArabic-ExtraLight';
+    src: url('./Assets/Fonts/alfont_com_Madani-Arabic-Extra-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'MadaniArabic-Light';
+    src: url('./Assets/Fonts/alfont_com_Madani-Arabic-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'DIN Next LT W23';
+    src: url('./Assets/Fonts/din-next-lt-w23-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+   
+  
